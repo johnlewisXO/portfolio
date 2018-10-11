@@ -1,0 +1,369 @@
+
+/* header properties */
+
+  body header h1{
+  color: $color-text-dark ;
+  font-family: Antic Slab;
+  font-size: 95px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* header contact properties */
+  body header .contact {
+  margin-left: 1275px;
+  position: fixed;
+  z-index: 80; }
+  body header .contact #contactdiv {
+    position: absolute;
+    z-index: 9;
+    width: 205px;
+    background-image: linear-gradient(135deg, #09e485 0%, #0291e3 100%);
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    color: #fff;
+    animation: light 4s infinite;
+    font-family: 'Antic Slab', serif;
+    font-weight: bold; }
+    body header .contact #contactdiv li {
+      list-style-type: none;
+      margin-left: -33px;
+      padding: 10px;
+      font-weight: normal; }
+    body header .contact #contactdiv #contactDivHeader {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      background-color: rgba(57, 133, 207, 0.6);
+      color: #fff; }
+
+body #navbar #borderYtoX{
+  margin: 50, auto;
+  text-align: center;
+  background-image: linear-gradient(135deg, #09e485 0%, #0291e3 100%);
+}
+body #navbar #borderYtoX ul{
+  margin: 17px, 0px, 0px, 0px;
+}
+body #navbar #borderYtoX ul li{
+  list-style: square;
+  margin: 50px, 10px, 0, 0;
+  display: inline-block;
+}
+
+/* navigation bar hover properties */
+nav a:hover  {
+  background-image: linear-gradient(135deg, #09e485 0%, #0291e3 100%);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+/* shift properties of navbar */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-flex;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 1.2s;
+}
+
+
+/* navbar animation */
+
+header h1 {
+    color: #AAA;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.teal {
+    background: #999;
+}
+div.container {
+  font-family: Raleway;
+  margin: 0 auto;
+	padding: 2em 3em 2em 3em;
+	text-align: center;
+}
+
+div.container a {
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 5px 5px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+div.borderYtoX a:before, div.borderYtoX a:after {
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderYtoX a:before {
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX a:after {
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+
+
+/* title sections */
+.title{
+  text-align: center;
+  list-style-position: inside;
+}
+
+.section h3 {
+  font-size: 26px;
+}
+
+/* Perosnal details section properties */
+#about .about-intro{
+  top: 100px;
+  position: relative;
+  margin-left: 90px;
+  margin-right: 900px;
+  width: 90%
+}
+
+/* Key skills section properties */
+#skills .section{
+  background-color: $bodyBG-color;
+  padding: 3px, 3px;
+  padding-top: 50px;
+}
+
+
+body section .education #education .subDetails {
+  font-weight: bold; }
+
+@media only screen and (min-width: 800px) {
+  body section .education #education {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 'header header' 'section1 section2';
+}
+  body section .education #education .Title {
+    grid-area: header;
+  }
+  body section .education #education #tertiary {
+    grid-area: section1;
+  }
+  body section .education #education #secondary {
+    grid-area: section2;
+  }
+  body section #hobbies {
+  width: 50%;
+  margin: 40px auto auto; }
+}
+
+
+/* hobbies section properties */
+#hobbies .line {
+  border: 2px solid black;
+  text-align: center;
+}
+#hobbies .section {
+  background-image: linear-gradient(135deg, #09e485 0%, #0291e3 100%);
+  padding-top: 50px;
+
+}
+
+#hobbies .hobbiesUL .section {
+  text-align: center;
+  list-style-position: inside;
+  color: $color-text-base;
+
+}
+
+/* image container properties */
+.imageContainer {
+  margin:auto auto auto auto;
+  width: 100%;
+}
+
+.socialMedia {
+  margin-left: 500px;
+}
+
+/* scroll back to top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 1px;
+    outline: none;
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* scroll back to top button hover */
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+// popup menu - keyskills
+.popup h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #333;
+  margin: 80px 0;
+}
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: #999;
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: $bodyBG-color;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup h2 {
+  margin-top: 0;
+  color: $color-text-dark;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+// carousel container properties
+body section .carousel-container {
+  max-width: 1510px; }
+  body section .carousel-container .carousel {
+    background-color: #88b6e2;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+    body section .carousel-container .carousel::before, body section .carousel-container .carousel::after {
+      background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+      content: "";
+      height: 200px;
+      position: absolute;
+      width: 200px;
+      z-index: 2; }
+    body section .carousel-container .carousel::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg); }
+    body section .carousel-container .carousel::before {
+      left: 0;
+      top: 0; }
+    body section .carousel-container .carousel .slide-track {
+      animation: scroll 10s linear infinite;
+      display: flex;
+      width: calc(350px * 8); }
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-350px * 4)); } }
+    body section .carousel-container .carousel .slide {
+      height: 200px;
+      width: 350px; }
