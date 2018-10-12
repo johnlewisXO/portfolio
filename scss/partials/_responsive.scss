@@ -1,2 +1,26 @@
 
 //responsive design for mobile
+
+
+@media screen and (max-width:1010px) {
+
+    .button {
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 968px) {
+    .socialMedia {
+        margin: 0 50% 0 45%;
+        position: static;
+    }
+
+    .button {
+        width: 20%;
+    }
+
+    
+
+}

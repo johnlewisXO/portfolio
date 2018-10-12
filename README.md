@@ -17,6 +17,14 @@ N.B!!
 - added PopUp menu for key skills section
 ======
 
+======
+12-10-2018 - Update
+
+- changed general layout to grids
+- added new sass variables for fonts and text
+
+======
+
 
 Checkout my project here https://johnlewisxo.github.io/portfolio/index.html
 =======
