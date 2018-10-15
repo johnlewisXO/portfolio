@@ -1,19 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Antic+Slab");
 html {
   scroll-behavior: smooth; }
 
 * {
   box-sizing: border-box;
-  text-align: left; }
+  text-align: center; }
 
 body {
   color: darkgrey;
   margin: 0 auto;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(135deg, #f2fcfe 0%, #0291e3 100%);
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(135deg, #f2fcfe 0%, #cff4fb 100%);
   color: transparent; }
 
 h1 {
   font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   line-height: 1em;
   margin-bottom: 5%;
@@ -21,24 +23,28 @@ h1 {
 
 h2 {
   font-size: 21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   line-height: 1em;
   text-align: center; }
 
 h3 {
   font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   line-height: 1em;
   text-align: center; }
 
 h4 {
   font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   line-height: 1em;
   text-align: center; }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   word-spacing: 0.2em;
   line-height: 1.5em;
@@ -52,10 +58,11 @@ ul {
     color: #000; }
 
 /* header properties */
-body header h1 {
-  color: #000;
-  font-family: Antic Slab;
-  font-size: 95px; }
+header h1 {
+  color: darkgrey;
+  font-family: Helvetica, sans-serif;
+  font-size: 75px;
+  font-weight: 300; }
 
 * {
   box-sizing: border-box; }
@@ -127,24 +134,26 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   height: 2px;
   width: 100%; }
 
-header h1 {
-  color: #AAA;
-  font-size: 40px;
-  font-weight: lighter;
-  margin-bottom: 5px; }
-
 /* title sections */
 .title {
   text-align: center;
-  list-style-position: inside; }
+  list-style-position: inside;
+  font-family: 'Antic+Slab'; }
 
-/* Perosnal details section properties */
-#about .about-intro {
-  top: 100px;
-  position: relative;
-  margin-left: 90px;
-  margin-right: 900px;
-  width: 90%; }
+/* Perosnal details grid properties */
+.grid-containerAbout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
+  margin: 50px 15% 50px 15%;
+  border: 2px solid black;
+  width: 70%;
+  font-size: 16px; }
+
+.grid-containerAbout > div {
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
 /* Key skills section properties */
 .grid-containerKeySkills {
@@ -156,28 +165,25 @@ header h1 {
   /* create gaps between grid elements*/
   padding: 10px;
   /* add padding for space between grid items */
-  background-image: linear-gradient(135deg, #f2fcfe 0%, #0291e3 100%);
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   margin: 50px 30% 50px 30%;
   width: 40%; }
 
 .grid-containerkeySkills > div {
-  background-image: linear-gradient(135deg, #E6DADA 0%, #274046 100%); }
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
 .grid-containerEducation {
   display: grid;
-  /* */
   grid-template-columns: auto auto;
-  /* create a specific amount of columns accordingly */
   grid-gap: 20px;
-  /* create gaps between grid elements*/
   padding: 10px;
-  /* add padding for space between grid items */
-  background-image: linear-gradient(135deg, #E6DADA 0%, #274046 100%);
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   margin: 50px 5% 50px 5%;
+  border: 2px solid black;
   width: 90%; }
 
 .grid-containerEducation > div {
-  background-image: linear-gradient(135deg, #E6DADA 0%, #274046 100%); }
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
 .grid-containerWorkExperience {
   display: grid;
@@ -188,20 +194,31 @@ header h1 {
   /* create gaps between grid elements*/
   padding: 10px;
   /* add padding for space between grid items */
-  background-image: linear-gradient(135deg, #E6DADA 0%, #274046 100%);
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   margin: 50px 5% 50px 5%;
+  border: 2px solid black;
   width: 90%; }
 
 .grid-containerWorkExperience > div {
-  background-image: linear-gradient(135deg, #E6DADA 0%, #274046 100%); }
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
 /* hobbies section properties */
-#hobbies .line {
+.grid-ContainerHobbies {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
+  margin: 50px 15% 50px 15%;
   border: 2px solid black;
-  text-align: center; }
+  width: 70%;
+  font-size: 18px; }
+
+.grid-ContainerHobbies > div {
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
 #hobbies .section {
-  background-image: linear-gradient(135deg, #09e485 0%, #0291e3 100%);
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   padding-top: 50px; }
 
 #hobbies .hobbiesUL .section {
@@ -214,9 +231,41 @@ header h1 {
   margin: auto auto auto auto;
   width: 100%; }
 
+.grid-containerContact-Social {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
+  margin: 50px 15% 50px 15%;
+  border: 2px solid black;
+  width: 70%;
+  font-size: 18px; }
+
+.grid-containerContact-Social > div {
+  background-image: linear-gradient(135deg, #f2fcfe 0%, #f2fcfe 100%); }
+
 /* social media properties */
-.socialMedia {
-  margin-left: 350px; }
+.socialMedia img {
+  max-width: 30px;
+  max-height: 30px; }
+
+.socialMedia img:hover {
+  max-width: 35px;
+  max-height: 35px; }
+
+.contactDiv:hover {
+  font-size: 20px; }
+
+.grid-containerAuthorTag {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #d1e2e6 5%);
+  border: 2px solid black;
+  width: 100%;
+  font-size: 18px; }
 
 /* contact properties */
 /* scroll back to top button */
@@ -289,7 +338,7 @@ header h1 {
   padding: 20px;
   background: azure;
   border-radius: 5px;
-  width: 30%;
+  width: 100%;
   position: relative;
   transition: all 5s ease-in-out; }
 
@@ -315,12 +364,6 @@ header h1 {
   max-height: 30%;
   overflow: auto; }
 
-@media screen and (max-width: 700px) {
-  .box {
-    width: 70%; }
-
-  .popup {
-    width: 70%; } }
 body section .carousel-container {
   max-width: 1510px; }
 
@@ -364,15 +407,41 @@ body section .carousel-container .carousel .slide {
   height: 200px;
   width: 350px; }
 
-@media screen and (max-width: 1010px) {
-  .button {
-    width: 20%; } }
 @media screen and (max-width: 968px) {
   .socialMedia {
-    margin: 0 50% 0 45%;
-    position: static; }
+    margin: 0 10% 0 10%; } }
+@media screen and (max-width: 10px) {
+  .box {
+    width: 100%; }
 
-  .button {
-    width: 20%; } }
+  .popup {
+    width: 100%;
+    font-size: 20px; } }
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%; }
+
+  .popup {
+    width: 70%;
+    font-size: 16px; }
+
+  .about {
+    font-size: 16px; }
+
+  .grid-containerEducation {
+    display: grid;
+    /* */
+    grid-template-columns: auto;
+    /* create a specific amount of columns accordingly */
+    grid-gap: 20px;
+    /* create gaps between grid elements*/
+    padding: 10px;
+    /* add padding for space between grid items */
+    background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
+    margin: 50px 5% 50px 5%;
+    width: 90%; }
+
+  .grid-containerEducation > div {
+    background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); } }
 
 /*# sourceMappingURL=main.css.map */

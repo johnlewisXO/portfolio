@@ -25,6 +25,18 @@ N.B!!
 
 ======
 
+======
+
+15-10-2018 - Update
+
+- Adjusted Grids for all sections
+- Changed font properties for movile responsiveness (education & work experience sections)
+- hover properties for social media images added
+- added solid border for all sections
+- linear gradient adjusted for a new color scheme
+
+======
+
 
 Checkout my project here https://johnlewisxo.github.io/portfolio/index.html
 =======
