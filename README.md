@@ -37,6 +37,16 @@ N.B!!
 
 ======
 
+======
+30-10-2018 - Update 
+
+- Introduced a new scroll effect to project
+- scrapped simple and dull color schemes and designs
+- implemented new css, including snippets from codrops
+- hover effects simplified
+
+======
+
 
 Checkout my project here https://johnlewisxo.github.io/portfolio/index.html
 =======

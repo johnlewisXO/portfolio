@@ -155,16 +155,11 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 .grid-containerAbout > div {
   background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
-/* Key skills section properties */
 .grid-containerKeySkills {
   display: grid;
-  /* */
   grid-template-columns: auto;
-  /* create a specific amount of columns accordingly */
   grid-gap: 10px;
-  /* create gaps between grid elements*/
   padding: 10px;
-  /* add padding for space between grid items */
   background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   margin: 50px 30% 50px 30%;
   width: 40%; }
@@ -187,13 +182,9 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
 
 .grid-containerWorkExperience {
   display: grid;
-  /* */
   grid-template-columns: auto;
-  /* create a specific amount of columns accordingly */
   grid-gap: 10px;
-  /* create gaps between grid elements*/
   padding: 10px;
-  /* add padding for space between grid items */
   background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   margin: 50px 5% 50px 5%;
   border: 2px solid black;
@@ -209,27 +200,29 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   grid-gap: 10px;
   padding: 10px;
   background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 15% 50px 15%;
+  margin: 50px 5% 50px 5%;
   border: 2px solid black;
-  width: 70%;
+  width: 90%;
   font-size: 18px; }
 
 .grid-ContainerHobbies > div {
   background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
-#hobbies .section {
+#Hobbies .section {
   background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
   padding-top: 50px; }
 
-#hobbies .hobbiesUL .section {
+.hobbies .hobbiesUL .section {
   text-align: center;
   list-style-position: inside;
-  color: darkgrey; }
+  color: darkgrey;
+  margin: 50px 5% 50px 5%;
+  max-width: 90%; }
 
 /* image container properties */
 .imageContainer {
-  margin: auto auto auto auto;
-  width: 100%; }
+  margin: 50px 5% 50px 5%;
+  max-width: 90%; }
 
 .grid-containerContact-Social {
   display: grid;
@@ -243,9 +236,12 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
   font-size: 18px; }
 
 .grid-containerContact-Social > div {
-  background-image: linear-gradient(135deg, #f2fcfe 0%, #f2fcfe 100%); }
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
 
 /* social media properties */
+.socialMedia {
+  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
+
 .socialMedia img {
   max-width: 30px;
   max-height: 30px; }
@@ -410,7 +406,7 @@ body section .carousel-container .carousel .slide {
 @media screen and (max-width: 968px) {
   .socialMedia {
     margin: 0 10% 0 10%; } }
-@media screen and (max-width: 10px) {
+@media screen and (max-width: 1010px) {
   .box {
     width: 100%; }
 

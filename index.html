@@ -1,391 +1,300 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>John Paul Lewis | CV</title>
+		<meta name="description" content="John Paul Lewis Cirriculum Vitae" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class="demo-4">
+		<div id="container" class="container intro-effect-side">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				
+			</div>
+			<header class="header">
+				<div class="bg-img"><video autoplay loop muted playsinline src="img/techBG.mp4"></video></div>
+				<div class="title">
+					<nav class="codrops-demos">
+						<a href="index4.html">Home</a>
+						<a href="#about">About</a>
+						<a href="#traits">Key Traits</a>
+						<a href="#education">Education</a>
+						<a href="#workexperience">Work Experience</a>
+						<a href="#abilities">Abilities</a>
+						<a href="#hobbies">Hobbies</a>
+					</nav>
+					<h1>Hi I'm John Paul Lewis</h1>
+				</div>
+			</header>
+			<button class="trigger" data-info="Explore"><span>Trigger</span></button>
 
-  <title>John Paul Lewis CV</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
+			<article class="content">
+				<div id="about">					
+						<article class="cbp-so-side cbp-so-side-left">
+							<h2>About Me</h2>
+							<p>A very enthusiastic individual who seeks opportunity for progression around every corner is the ultimate form of self-description when i look at myself.I do not give up easily and once I set a goal, I achieve it. Time management and self assessment are always factors I consider. I work well in a pressurized environment, so that my deadlines are met promptly.</p>
+						</article>
+						<figure class="cbp-so-side cbp-so-side-right">
+							<img src="img/gradPic2.jpg" alt="img01">
+						</figure>
+				</div>
 
-  <link href="https://fonts.googleapis.com/css?family=Antic+Slab|Cardo|Cousine|Karma|Poiret+One|Slabo+13px|Sorts+Mill+Goudy|Tinos" rel="stylesheet">
+				<div id="traits">
+					<h2>Key Traits</h2>
+					<p class="Details"><b>Leadership</b></p>
+					<p class="Details"><b>Enthusiasm for ICT</b></p>
+					<p class="Details"><b>Responsibility and Self-awareness</b></p>
+					<p class="Details"><b>Unified Front</b></p>
+					<p class="Details"><b>Communicative Skills</b></p>
+					<p class="Details"><b>Logical Assessment</b> </p>
+				</div>
 
-  <script src="js/scriptZ.js"></script>
+				<div id="education">
+					<h2>Education & Qualifications</h2>
+					<div class="grid-containerEducation">									
+						<div class="column-tertiary">
+							<h2>Tertiary Education</h2>
+							<h4 class="subDetails">Institution:</h4>
+							<p>Salesians Life Choices Academy</p>
+							<h4 class="subDetails">Course:</h4>
+							<p>Web development</p>
+							<h4 class="subDetails">Subjects:</h4>
+							<p>Web Development, Professional Development, Design Thinking.</p>
+							<h4 class="subDetails">Programmming languages:</h4>
+							<p>HTML, CSS, JavaScript</p>
+						</div>					
+						<div class="column-secondary">
+							<h2>Secondary Education</h2>
+							<h4 class="subDetails">High School:</h4>
+							<p>Zeekoevlei Secondary</p>
+							<h4 class="subDetails">Matriculated in:</h4>
+							<p>2013</p>
+							<h4 class="subDetails">Subjects:</h4>
+							<p>Mathematics, English, Afrikaans, Life Orientation, Life Sciences, Geography, Physical Sciences</p>
+						</div>							
+					</div> 
+				</div>
 
-</head>
-<body class="full-screen bg-gradient-hot">
+				<div id="workexperience">
+					<h2>Work Experience</h2>
+					<div class="grid-containerWorkExperience">
+						<div class="item-3">
+							<h4 class="subDetails">Employer:</h4>
+							<p>Western Cape Education Department</p>
+							<h4 class="subDetails">Duration:</h4>
+							<p>2 weeks</p>
+							<h4 class="subDetails">Duties/Responsibilities:</h4>
+							<p>Data Capturer - Mark Checker</p>
+							<h4 class="subDetails">Reason for leaving:</h4>
+							<p>End of Contract</p>
+							<h4 class="subDetails">Reference:</h4>
+							<p>L. van Gensen</p>
+							<h4 class="subDetails">Contact</h4>
+							<p>021 467 2976</p>
+							</div>
+					</div>	
+				</div>
 
-  <script type="text/javascript">
-        function PathLoader( el ) {
-        this.el = el;
-        // clear stroke
-        this.el.style.strokeDasharray = this.el.style.strokeDashoffset = this.el.getTotalLength();
-        }
+				<div id="hobbies">
+					<h2>My Hobbies</h2>
+					<ul class="hobbies">
+						<li>Coding</li>
+						<li>Researching</li>
+						<li>Music Production</li>
+						<li>Video Games</li>
+						<li>Cooking</li>
+					</ul>
+				</div>
 
-        PathLoader.prototype._draw = function( val ) {
-        this.el.style.strokeDashoffset = this.el.getTotalLength() * ( 1 - val );
-        }
-
-        PathLoader.prototype.setProgress = function( val, callback ) {
-        this._draw(val);
-        if( callback && typeof callback === 'function' ) {
-          // give it a time (ideally the same like the transition time) so that the last progress increment animation is still visible.
-          setTimeout( callback, 200 );
-        }
-        }
-
-        PathLoader.prototype.setProgressFn = function( fn ) {
-        if( typeof fn === 'function' ) { fn( this ); }
-        }
-
-        var simulationFn = function(instance) {
-      	var progress = 0,
-      		interval = setInterval( function() {
-      			progress = Math.min( progress + Math.random() * 0.1, 1 );
-      			instance.setProgress( progress );
-      			// reached the end
-      			if( progress === 1 ) {
-      				clearInterval( interval );
-      			}
-      		}, 100 );
-        };
-
-        var loader = new PathLoader([pathselector]);
-        loader.setProgressFn(simulationFn);
-
-        var support = { animations : Modernizr.cssanimations },
-      	container = document.getElementById( 'ip-container' ),
-      	header = container.querySelector( 'header.ip-header' ),
-      	loader = new PathLoader( document.getElementById( 'ip-loader-circle' ) ),
-      	animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
-      	// animation end event name
-      	animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
-
-        function init() {
-    	var onEndInitialAnimation = function() {
-    		if( support.animations ) {
-    			this.removeEventListener( animEndEventName, onEndInitialAnimation );
-    		}
-
-    		startLoading();
-    	};
-
-    	// disable scrolling
-    	window.addEventListener( 'scroll', noscroll );
-
-    	// initial animation
-    	classie.add( container, 'loading' );
-
-    	if( support.animations ) {
-    		container.addEventListener( animEndEventName, onEndInitialAnimation );
-    	}
-    	else {
-    		onEndInitialAnimation();
-    	}
-     }
-
-      // no scroll
-      function noscroll() {
-      	window.scrollTo( 0, 0 );
-      }
-
-        function startLoading() {
-      	// simulate loading something..
-      	var simulationFn = function(instance) {
-      		var progress = 0,
-      			interval = setInterval( function() {
-      				progress = Math.min( progress + Math.random() * 0.1, 1 );
-
-      				instance.setProgress( progress );
-
-      				// reached the end
-      				if( progress === 1 ) {
-      					classie.remove( container, 'loading' );
-      					classie.add( container, 'loaded' );
-      					clearInterval( interval );
-
-      					var onEndHeaderAnimation = function(ev) {
-      						if( support.animations ) {
-      							if( ev.target !== header ) return;
-      							this.removeEventListener( animEndEventName, onEndHeaderAnimation );
-      						}
-
-      						classie.add( document.body, 'layout-switch' );
-      						window.removeEventListener( 'scroll', noscroll );
-      					};
-
-      					if( support.animations ) {
-      						header.addEventListener( animEndEventName, onEndHeaderAnimation );
-      					}
-      					else {
-      						onEndHeaderAnimation();
-      					}
-      				}
-      			}, 80 );
-      	};
-
-      	loader.setProgressFn( simulationFn );
-      }
-
-  </script>
-
-    <header>
-
-      <h1>John Paul Lewis</h1>
-       
-    </header>
-    <div id="navbar">
-      <div class="containerNav navbar borderYtoX">
-
-        <nav id="navigation">
-          <ul>
-           <li><a class="active" href="#about">Personal Details  </a></li>
-
-           <li><a class="nav" href="#skills">Skills and Abilities  </a></li>
-
-           <li><a class="nav" href="#education">Education and Qualifications  </a></li>
-
-           <li><a class="nav" href="#hobbies">Hobbies  </a></li>
-
-           <li><a class="nav" href="#workExperince">Work Experience  </a></li>
-
-         </ul>
-         <br><br><br>
-        </nav>
-
-      </div>
-    </div>
-
-    <br><br><br><br>
-
-    <section>
-        
-      <div class="grid-containerAbout">
-        <h3>Personal Details</h3>
-          <div class="item-3">
-            <div class="about-intro">
-              <p>A very enthusiastic individual who seeks opportunity for progression around every corner is the ultimate form of self-description when i look at myself.I do not give up easily and once I set a goal, I achieve it. Time management and self assessment are always factors I consider. I work well in a pressurized environment, so that my deadlines are met promptly.</p>
-            </div>
-          </div>
-      </div><br><br><br><br>
-      
-
-      <div id="skills" class="section">
-        <div class="Title">
-          <br>
-          <br>
-          <h3>Key Skills</h3>
-        </div>
-        <br>
+				<div id="abilities">
+					<h2>My Tech Abilities</h2>		
+					<ul class="abilities">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>SCSS</li>
+							<li>Sass</li>
+							<li>JavaScript</li>
+					</ul>
+				</div>
 
 
 
+			</article>
 
-        <div class="grid-containerKeySkills">
-            <div class="box">
-                <a class="button" href="#popup1">Click Me!</a>
-              </div>
-            <div id="popup1" class="overlay">
-                <div class="popup">
-                  <p class="Details"><b>Leadership</b></p>
-                  <br>
-                  <p class="Details"><b>Enthusiasm for ICT</b></p>
-                  <br>
-                  <p class="Details"><b>Responsibility and self-awareness</b></p>
-                  <br>
-                  <p class="Details"><b>Unified front</b></p>
-                  <br>
-                  <p class="Details"><b>Communicative skills</b></p>
-                  <br>
-                  <p class="Details"><b>Logical Assessment</b> </p>
-                  <a class="close" href="#">&times;</a>
-                  <div class="content">
-                    Thanks for using me!
-                  </div>
-              </div>
-        </div>
-        
-        </div><br><br><br>
+			<footer>
 
+					<div class="contact">
+							<div id="contactdiv">
+								<!--contact details:-->								  
+								<p> E-mail: jlewis20296@gmail.com <br>
+									Number: 072 800 2905
+								</p>								  
+							</div>
+							<div class="socialMedia">
+								<a href="https://www.facebook.com/jlewis786" class="facebook"> <img src="img/facebooklogo.jpg" alt="" > </a>
+								<a href="https://twitter.com/WavedPegasus786" class="twitter"><img src="img/twitterlogo2.jpg" alt="" ></a>
+								<a href="https://www.instagram.com/stlouis786/" class="instagram"><img src="img/instagramlogo2.jpg" alt="" ></a>
+								<a href="https://github.com/johnlewisXO" class="github"><img src="img/githublogo4.jpg" alt="" ></a>
+								<a href="https://www.linkedin.com/in/john-paul-lewis-0235b516b/" class="linkedin"><img src="img/linkedinlogo2.jpg" alt="" ></a>
+							</div>
+						</div>
+					<div class="grid-containerAuthorTag">
+						<p>© John Paul Lewis 2018</p>
+					</div>					
+			</footer>
 
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script>
+			(function() {
 
-      </div>
-      
+				// detect if IE : from http://stackoverflow.com/a/16657946		
+				var ie = (function(){
+					var undef,rv = -1; // Return value assumes failure.
+					var ua = window.navigator.userAgent;
+					var msie = ua.indexOf('MSIE ');
+					var trident = ua.indexOf('Trident/');
 
-      <div class="Title">
-          <h1>Education & Qualifications</h1>
-      </div>
-      
-      <div id="education">
-       
-        <div class="grid-containerEducation">
-         
+					if (msie > 0) {
+						// IE 10 or older => return version number
+						rv = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+					} else if (trident > 0) {
+						// IE 11 (or newer) => return version number
+						var rvNum = ua.indexOf('rv:');
+						rv = parseInt(ua.substring(rvNum + 3, ua.indexOf('.', rvNum)), 10);
+					}
 
-          <div class="column-tertiary">
-              <h2>Tertiary Education</h2>
-              <h4 class="subDetails">Institution:</h4>
-              <p>Salesians Life Choices Academy</p>
-              <h4 class="subDetails">Course:</h4>
-              <p>Web development</p>
-              <h4 class="subDetails">Subjects:</h4>
-              <p>Web Development, Professional Development, Design Thinking.</p>
-              <h4 class="subDetails">Programmming languages:</h4>
-              <p>HTML, CSS, JavaScript</p>
-          </div>
-    
-          <div class="column-secondary">
-              <h2>Secondary Education</h2>
-              <h4 class="subDetails">High School:</h4>
-              <p>Zeekoevlei Secondary</p>
-              <h4 class="subDetails">Matriculated in:</h4>
-              <p>2013</p>
-              <h4 class="subDetails">Subjects:</h4>
-              <p>Mathematics, English, Afrikaans, Life Orientation, Life Sciences, Geography, Physical Sciences</p>
-          </div>
-      
-        </div> 
-      </div>  <br> <br> <br> <br>
-    
-    
-      <div class="Title">
-          <h1>Work Experience</h1>
-        </div>
-      <div class="grid-containerWorkExperience">
-       
-        <div class="item-3">
-          <h4 class="subDetails">Employer:</h4>
-          <p>Western Cape Education Department</p>
-          <h4 class="subDetails">Duration:</h4>
-          <p>2 weeks</p>
-          <h4 class="subDetails">Duties/Responsibilities:</h4>
-          <p>Data Capturer - Mark Checker</p>
-          <h4 class="subDetails">Reason for leaving:</h4>
-          <p>End of Contract</p>
-          <h4 class="subDetails">Reference:</h4>
-          <p>L. van Gensen</p>
-          <h4 class="subDetails">Designation:</h4>
-          <p>Directorate of Examinations</p>
-          <h4 class="subDetails">Contact</h4>
-          <p>021 467 297</p>
-        </div>
-      </div><br><br><br><br>
-    
-
-     
-      <div class="Title">
-      		<h1>Hobbies</h1>
-      	</div>
-
-     <div class="grid-ContainerHobbies">
-      <div id="hobbies" class="section">
-    		<div class="Content">
-    			<ul class="hobbies">
-    				<li>Coding</li>
-    				<li>Researching</li>
-    				<li>Music Production</li>
-            <li>Video Games</li>
-            <li>Cooking</li>
-    			</ul>
-        </div>
-      </div>
-        <div class="imageContainer">
-          <img src="images/background.jpg" alt="coding" height="150px" width="260px">
-          <img src="images/research.jpg" alt="research" height="150px" width="260px">
-          <img src="images/flStudio.jpg" alt="FLStudio" height="150px" width="260px">
-          <img src="images/pcGamer.jpg" alt="PC gamer" height="150px"width="260px">
-          <img src="images/cooking1.jpg" alt="cooking" height="150px" width="260px">
-        </div>
-      </div><br><br><br><br>
+					return ((rv > -1) ? rv : undef);
+				}());
 
 
+				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
+				// left: 37, up: 38, right: 39, down: 40,
+				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
 
-      <!-- Carousel container -->
-      <div class="carousel-container">
+				function preventDefault(e) {
+					e = e || window.event;
+					if (e.preventDefault)
+					e.preventDefault();
+					e.returnValue = false;  
+				}
 
-        <div class="carousel">
-          <div class="slide-track">
-            <div class="slide"></div>
-            <div class="slide">
-              <img src="images/htmllogo.jpg" height="200" width="250" alt="" />
-            </div>
-            <div class="slide">
-              <img src="images\csslogo.jpg" height="200" width="250" alt="" />
-            </div>
-            <div class="slide">
-              <img src="images\htmllogo2.jpg" height="200" width="250" alt="" />
-            </div>
-            <div class="slide"></div>
-            <div class="slide">
-              <img src="images\csslogo2.jpg" height="200" width="250" alt="" />
-            </div>
-            <div class="slide">
-              <img src="images\htmllogo.jpg" height="200" width="250" alt="" />
-            </div>
-            <div class="slide">
-              <img src="images\csslogo.jpg height="200" width="250" alt="" />
-            </div>
-          </div>
-        </div><br><br><br>
+				function keydown(e) {
+					for (var i = keys.length; i--;) {
+						if (e.keyCode === keys[i]) {
+							preventDefault(e);
+							return;
+						}
+					}
+				}
 
-      </div> <br><br><br>
+				function touchmove(e) {
+					preventDefault(e);
+				}
 
-    </section>
+				function wheel(e) {
+					// for IE 
+					//if( ie ) {
+						//preventDefault(e);
+					//}
+				}
 
-    <footer>
-        
-      <!-- social media links section -->
-      
-          <div class="Title">
-              <p>CONTACT & EXPLORE MY SOCIAL MEDIA</p>
-          </div><br>
+				function disable_scroll() {
+					window.onmousewheel = document.onmousewheel = wheel;
+					document.onkeydown = keydown;
+					document.body.ontouchmove = touchmove;
+				}
 
-          <div class="contact">
-              <div id="contactdiv">
-                <!--Header div with contact details:-->
-                <div id="contactDivHeader" title="Move Me">
-                  Contact Me
-                </div>
-                
-                  <p> E-mail: jlewis20296@gmail.com <br>
-                    Number: 072 800 2905
-                  </p>
-                
-              </div>
-            </div><br><br>
-  
-        <div class="socialMedia">
-          <a href="https://www.facebook.com/jlewis786" class="facebook"> <img src="images/facebooklogo.jpg" alt="" > </a>
-          <a href="https://twitter.com/WavedPegasus786" class="twitter"><img src="images/twitterlogo2.jpg" alt="" ></a>
-          <a href="https://www.instagram.com/stlouis786/" class="instagram"><img src="images/instagramlogo2.jpg" alt="" ></a>
-          <a href="https://github.com/johnlewisXO" class="github"><img src="images/githublogo4.jpg" alt="" ></a>
-          <a href="https://www.linkedin.com/in/john-paul-lewis-0235b516b/" class="linkedin"><img src="images/linkedinlogo2.jpg" alt="" ></a>
-        </div>
-      <br><br>
+				function enable_scroll() {
+					window.onmousewheel = document.onmousewheel = document.onkeydown = document.body.ontouchmove = null;  
+				}
 
-      <div class="grid-containerAuthorTag">
-        <p>John Paul Lewis 2018</p>
-      </div>
+				var docElem = window.document.documentElement,
+					scrollVal,
+					isRevealed, 
+					noscroll, 
+					isAnimating,
+					container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
 
-    </footer>
+				function scrollY() {
+					return window.pageYOffset || docElem.scrollTop;
+				}
+				
+				function scrollPage() {
+					scrollVal = scrollY();
+					
+					if( noscroll && !ie ) {
+						if( scrollVal < 0 ) return false;
+						// keep it that way
+						window.scrollTo( 0, 0 );
+					}
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+					if( classie.has( container, 'notrans' ) ) {
+						classie.remove( container, 'notrans' );
+						return false;
+					}
 
-    <!-- javascript function for scroll to top button -->
-    <script type="text/javascript">
-      window.onscroll = function() {scrollFunction()};
+					if( isAnimating ) {
+						return false;
+					}
+					
+					if( scrollVal <= 0 && isRevealed ) {
+						toggle(0);
+					}
+					else if( scrollVal > 0 && !isRevealed ){
+						toggle(1);
+					}
+				}
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-        } else {
-            document.getElementById("myBtn").style.display = "none";
-        }
-      }
+				function toggle( reveal ) {
+					isAnimating = true;
+					
+					if( reveal ) {
+						classie.add( container, 'modify' );
+					}
+					else {
+						noscroll = true;
+						disable_scroll();
+						classie.remove( container, 'modify' );
+					}
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-      }
-    </script>
+					// simulating the end of the transition:
+					setTimeout( function() {
+						isRevealed = !isRevealed;
+						isAnimating = false;
+						if( reveal ) {
+							noscroll = false;
+							enable_scroll();
+						}
+					}, 600 );
+				}
 
-</body>
+				// refreshing the page...
+				var pageScroll = scrollY();
+				noscroll = pageScroll === 0;
+				
+				disable_scroll();
+				
+				if( pageScroll ) {
+					isRevealed = true;
+					classie.add( container, 'notrans' );
+					classie.add( container, 'modify' );
+				}
+				
+				window.addEventListener( 'scroll', scrollPage );
+				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
+			})();
+		</script>
+	</body>
 </html>
