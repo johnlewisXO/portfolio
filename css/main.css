@@ -1,57 +1,63 @@
 @import url("https://fonts.googleapis.com/css?family=Antic+Slab");
+
 html {
   scroll-behavior: smooth; }
 
 * {
-  box-sizing: border-box;
-  text-align: center; }
+  box-sizing: border-box; }
 
 body {
   color: darkgrey;
   margin: 0 auto;
+  font-weight: 400;
+	line-height: 1.5;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(135deg, #f2fcfe 0%, #cff4fb 100%);
+  background-image: linear-gradient(55deg, #dcf8cc 0%, #f2fcfe 60%);
   color: transparent; }
 
+  h1,
+  h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0; }
+
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   line-height: 1em;
-  margin-bottom: 5%;
-  text-align: center; }
+  margin-bottom: 5%; }
 
 h2 {
-  font-size: 21px;
+  font-size: 18px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
-  line-height: 1em;
-  text-align: center; }
+  line-height: 1em; }
 
 h3 {
-  font-size: 17px;
+  font-size: 16px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
-  line-height: 1em;
-  text-align: center; }
+  line-height: 1em; }
 
 h4 {
   font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
-  line-height: 1em;
-  text-align: center; }
+  line-height: 1em; }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
   word-spacing: 0.2em;
-  line-height: 1.5em;
-  text-align: center; }
+  line-height: 1.5em; }
 
-ul {
-  text-align: center; }
+ul { }
   ul li {
     list-style-type: none;
     list-style-position: inside;
@@ -64,344 +70,13 @@ header h1 {
   font-size: 75px;
   font-weight: 300; }
 
-* {
-  box-sizing: border-box; }
-
-/* navigation bar grid properties */
-div.containerNav {
-  font-family: Raleway;
-  margin: 0 auto;
-  padding: 2em 3em 2em 3em;
-  text-align: center; }
-
-div.containerNav a {
-  color: black;
-  text-decoration: none;
-  font: 20px Raleway;
-  margin: 0px 10px;
-  padding: 5px 5px;
-  position: relative;
-  z-index: 0;
-  cursor: pointer; }
-
-/* navigation bar hover properties */
-nav a:hover {
-  color: #88b6e2;
-  box-shadow: inset 0 0 0 3px white; }
-
-/* shift properties of navbar */
-nav ul {
-  list-style: none;
-  text-align: center; }
-
-nav ul li {
-  display: inline-flex; }
-
-nav ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 10px; }
-
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all 2.2s; }
-
-/* navbar animation */
-div.borderYtoX a:before, div.borderYtoX a:after {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 2px;
-  content: '';
-  background: #FFF;
-  transition: all 0.3s; }
-
-div.borderYtoX a:before {
-  left: 0px;
-  top: 0px; }
-
-div.borderYtoX a:after {
-  right: 0px;
-  bottom: 0px; }
-
-div.borderYtoX a:hover:before, div.borderYtoX a:hover:after {
-  opacity: 1;
-  height: 2px;
-  width: 100%; }
-
 /* title sections */
 .title {
-  text-align: center;
   list-style-position: inside;
   font-family: 'Antic+Slab'; }
 
-/* Perosnal details grid properties */
-.grid-containerAbout {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 15% 50px 15%;
-  border: 2px solid black;
-  width: 70%;
-  font-size: 16px; }
 
-.grid-containerAbout > div {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-.grid-containerKeySkills {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 30% 50px 30%;
-  width: 40%; }
-
-.grid-containerkeySkills > div {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-.grid-containerEducation {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 20px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 5% 50px 5%;
-  border: 2px solid black;
-  width: 90%; }
-
-.grid-containerEducation > div {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-.grid-containerWorkExperience {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 5% 50px 5%;
-  border: 2px solid black;
-  width: 90%; }
-
-.grid-containerWorkExperience > div {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-/* hobbies section properties */
-.grid-ContainerHobbies {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 5% 50px 5%;
-  border: 2px solid black;
-  width: 90%;
-  font-size: 18px; }
-
-.grid-ContainerHobbies > div {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-#Hobbies .section {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  padding-top: 50px; }
-
-.hobbies .hobbiesUL .section {
-  text-align: center;
-  list-style-position: inside;
-  color: darkgrey;
-  margin: 50px 5% 50px 5%;
-  max-width: 90%; }
-
-/* image container properties */
-.imageContainer {
-  margin: 50px 5% 50px 5%;
-  max-width: 90%; }
-
-.grid-containerContact-Social {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-  margin: 50px 15% 50px 15%;
-  border: 2px solid black;
-  width: 70%;
-  font-size: 18px; }
-
-.grid-containerContact-Social > div {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-/* social media properties */
-.socialMedia {
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); }
-
-.socialMedia img {
-  max-width: 30px;
-  max-height: 30px; }
-
-.socialMedia img:hover {
-  max-width: 35px;
-  max-height: 35px; }
-
-.contactDiv:hover {
-  font-size: 20px; }
-
-.grid-containerAuthorTag {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background-image: linear-gradient(55deg, #f2fcfe 0%, #d1e2e6 5%);
-  border: 2px solid black;
-  width: 100%;
-  font-size: 18px; }
-
-/* contact properties */
-/* scroll back to top button */
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: 1px;
-  outline: none;
-  background-color: blue;
-  color: black;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px; }
-
-/* scroll back to top button hover */
-#myBtn:hover {
-  background-color: #555;
-  /* Add a dark-grey background on hover */ }
-
-.popup h1 {
-  text-align: center;
-  font-family: Tahoma, Arial, sans-serif;
-  color: #333;
-  margin: 80px 0; }
-
-.box {
-  width: 40%;
-  margin: 0 auto;
-  background: #999;
-  padding: 35px;
-  border: 2px solid #fff;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
-  text-align: center; }
-
-.button {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out; }
-
-.button:hover {
-  background: #06D85F; }
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0; }
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1; }
-
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: azure;
-  border-radius: 5px;
-  width: 100%;
-  position: relative;
-  transition: all 5s ease-in-out; }
-
-.popup h2 {
-  margin-top: 0;
-  color: #000;
-  font-family: Tahoma, Arial, sans-serif; }
-
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333; }
-
-.popup .close:hover {
-  color: #06D85F; }
-
-.popup .content {
-  max-height: 30%;
-  overflow: auto; }
-
-body section .carousel-container {
-  max-width: 1510px; }
-
-body section .carousel-container .carousel {
-  background-color: #88b6e2;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 200px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 100%; }
-
-body section .carousel-container .carousel::before, body section .carousel-container .carousel::after {
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-  content: "";
-  height: 200px;
-  position: absolute;
-  width: 200px;
-  z-index: 2; }
-
-body section .carousel-container .carousel::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg); }
-
-body section .carousel-container .carousel::before {
-  left: 0;
-  top: 0; }
-
-body section .carousel-container .carousel .slide-track {
-  animation: scroll 10s linear infinite;
-  display: flex;
-  width: calc(350px * 8); }
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0); }
-  100% {
-    transform: translateX(calc(-350px * 4)); } }
-body section .carousel-container .carousel .slide {
-  height: 200px;
-  width: 350px; }
+  /* media queries */
 
 @media screen and (max-width: 968px) {
   .socialMedia {
@@ -417,27 +92,8 @@ body section .carousel-container .carousel .slide {
   .box {
     width: 100%; }
 
-  .popup {
-    width: 70%;
-    font-size: 16px; }
-
   .about {
     font-size: 16px; }
 
-  .grid-containerEducation {
-    display: grid;
-    /* */
-    grid-template-columns: auto;
-    /* create a specific amount of columns accordingly */
-    grid-gap: 20px;
-    /* create gaps between grid elements*/
-    padding: 10px;
-    /* add padding for space between grid items */
-    background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-    margin: 50px 5% 50px 5%;
-    width: 90%; }
-
-  .grid-containerEducation > div {
-    background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%); } }
 
 /*# sourceMappingURL=main.css.map */

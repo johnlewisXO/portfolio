@@ -10,45 +10,49 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<!--[if IE]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		
+
+		<style>
+			html {
+				  scroll-behavior: smooth; 
+			}
+		</style>
 	</head>
-	<body class="demo-4">
+	<body class="portfolio-container">
 		<div id="container" class="container intro-effect-side">
 			<!-- Top Navigation -->
-			<div class="codrops-top clearfix">
+			<div class="main-top clearfix">
 				
 			</div>
 			<header class="header">
-				<div class="bg-img"><video autoplay loop muted playsinline src="img/techBG.mp4"></video></div>
+				<div class="bg-img"><video autoplay loop muted playsinline src="img/zoomBG.mp4"></video></div>
 				<div class="title">
-					<nav class="codrops-demos">
-						<a href="index4.html">Home</a>
+					<nav class="main">
+						<a href="index.html">Home</a>
 						<a href="#about">About</a>
 						<a href="#traits">Key Traits</a>
 						<a href="#education">Education</a>
 						<a href="#workexperience">Work Experience</a>
-						<a href="#abilities">Abilities</a>
 						<a href="#hobbies">Hobbies</a>
+						<a href="#abilities">Abilities</a>
 					</nav>
-					<h1>Hi I'm John Paul Lewis</h1>
+					<h1>Hi I'm John Paul!</h1>	
 				</div>
 			</header>
 			<button class="trigger" data-info="Explore"><span>Trigger</span></button>
 
-			<article class="content">
-				<div id="about">					
-						<article class="cbp-so-side cbp-so-side-left">
-							<h2>About Me</h2>
-							<p>A very enthusiastic individual who seeks opportunity for progression around every corner is the ultimate form of self-description when i look at myself.I do not give up easily and once I set a goal, I achieve it. Time management and self assessment are always factors I consider. I work well in a pressurized environment, so that my deadlines are met promptly.</p>
-						</article>
-						<figure class="cbp-so-side cbp-so-side-right">
-							<img src="img/gradPic2.jpg" alt="img01">
-						</figure>
+			<div class="content">
+				<div id="about" class="about">					
+					<article >
+						<h2>About Me</h2>
+						<p>A very enthusiastic individual who seeks opportunity for progression around every corner is the ultimate form of self-description when i look at myself.I do not give up easily and once I set a goal, I achieve it. Time management and self assessment are always factors I consider. I work well in a pressurized environment, so that my deadlines are met promptly.</p>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="img/gradPic2.jpg" alt="img01">
+					</figure>
 				</div>
 
-				<div id="traits">
+				<div id="traits" class="traits">
 					<h2>Key Traits</h2>
 					<p class="Details"><b>Leadership</b></p>
 					<p class="Details"><b>Enthusiasm for ICT</b></p>
@@ -58,7 +62,7 @@
 					<p class="Details"><b>Logical Assessment</b> </p>
 				</div>
 
-				<div id="education">
+				<div id="education" class="education">
 					<h2>Education & Qualifications</h2>
 					<div class="grid-containerEducation">									
 						<div class="column-tertiary">
@@ -84,7 +88,7 @@
 					</div> 
 				</div>
 
-				<div id="workexperience">
+				<div id="workexperience" class="workexperience">
 					<h2>Work Experience</h2>
 					<div class="grid-containerWorkExperience">
 						<div class="item-3">
@@ -104,31 +108,36 @@
 					</div>	
 				</div>
 
-				<div id="hobbies">
-					<h2>My Hobbies</h2>
-					<ul class="hobbies">
-						<li>Coding</li>
-						<li>Researching</li>
-						<li>Music Production</li>
-						<li>Video Games</li>
-						<li>Cooking</li>
-					</ul>
+				<div id="hobbies" class="hobbies">
+					<div class="flip-box flip-up">
+						<div class="object">
+							<div class="front">
+								<h2>My Hobbies</h2>	
+							</div>	
+							<div class="back">
+								<p>Coding</p>
+								<p>Researching</p>
+								<p>Music Production</p>
+								<p>Video Games</p>
+								<p>Cooking</p>
+							</div>
+							<div class="flank"></div>
+						</div>
+					</div>
 				</div>
 
-				<div id="abilities">
-					<h2>My Tech Abilities</h2>		
-					<ul class="abilities">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>SCSS</li>
-							<li>Sass</li>
-							<li>JavaScript</li>
-					</ul>
+				<div id="abilities" class="abilities">
+					<h2>My Tech Abilities</h2>					
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>SCSS</p>
+						<p>Sass</p>
+						<p>JavaScript</p>	
 				</div>
 
 
 
-			</article>
+			</div>
 
 			<footer>
 
@@ -147,6 +156,7 @@
 								<a href="https://www.linkedin.com/in/john-paul-lewis-0235b516b/" class="linkedin"><img src="img/linkedinlogo2.jpg" alt="" ></a>
 							</div>
 						</div>
+						<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 					<div class="grid-containerAuthorTag">
 						<p>© John Paul Lewis 2018</p>
 					</div>					
@@ -154,6 +164,24 @@
 
 		</div><!-- /container -->
 		<script src="js/classie.js"></script>
+		<script type="text/javascript">
+			window.onscroll = function() {scrollFunction()};
+		
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("myBtn").style.display = "block";
+				} else {
+					document.getElementById("myBtn").style.display = "none";
+				}
+			}
+		
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0; // For Safari
+				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>
+
 		<script>
 			(function() {
 

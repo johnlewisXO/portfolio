@@ -36,20 +36,5 @@
         font-size: 16px;
     }
     
-    .grid-containerEducation {
-        display: grid; /* */
-        grid-template-columns: auto ; /* create a specific amount of columns accordingly */
-        grid-gap: 20px; /* create gaps between grid elements*/
-        padding: 10px; /* add padding for space between grid items */
-        background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-        margin: 50px 5% 50px 5%;
-        width: 90%;
-    
-    }
-    
-    .grid-containerEducation > div {
-        background-image: linear-gradient(55deg, #f2fcfe 0%, #6edef5 5%);
-    
-    }
   
   }
