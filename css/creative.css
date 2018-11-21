@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: rgb(102, 224, 233) !important;
+  background-color: dodgerblue !important;
 }
 
 .bg-dark {
@@ -96,7 +96,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: dodgerblue;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -155,10 +155,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: dodgerblue;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: dodgerblue;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -166,51 +166,51 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: dodgerblue;
   }
 }
 
-/* header.masthead {
+header.masterhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('img/coding_background3.jpg');
+  background-image: url('../img/coding_background3.jpg');
   background-position: center center;
   background-size: cover;
-} */
+}
 
-header.masthead hr {
+header.masterhead hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-header.masthead h1 {
+header.masterhead h1 {
   font-size: 2rem;
 }
 
-header.masthead p {
+header.masterhead p {
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  header.masthead p {
+  header.masterhead p {
     font-size: 1.15rem;
   }
 }
 
 @media (min-width: 992px) {
-  header.masthead {
+  header.masterhead {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  header.masthead h1 {
+  header.masterhead h1 {
     font-size: 3rem;
   }
 }
 
 @media (min-width: 1200px) {
-  header.masthead h1 {
+  header.masterhead h1 {
     font-size: 4rem;
   }
 }
@@ -235,7 +235,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: dodgerblue;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -266,7 +266,8 @@ header.masthead p {
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 0.3;
+  background: dodgerblue;
+  opacity: 0.9;
 }
 
 .portfolio-box:focus {
@@ -286,29 +287,47 @@ header.masthead p {
   color: rgb(15, 9, 8) !important;
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
 
 .btn-xl {
   padding: 1rem 2rem;
 }
 
 .btn-primary {
-  background-color: rgb(64, 219, 240);
+  background: linear-gradient(45deg, dodgerblue, 75deg, blue);
   border-color: rgb(64, 126, 240);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: rgb(64, 219, 240) !important;
+  background: linear-gradient(147deg, #21aef2, #f25621);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 4s ease infinite;
+  -moz-animation: AnimationName 4s ease infinite;
+  animation: AnimationName 4s ease infinite;
+  
 }
 
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(64, 146, 240, 0.5)ortant;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
 }
