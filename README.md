@@ -75,5 +75,7 @@ Media queries adjusted.
 
 Site theme/base colours tweaked for simplicity.
 Section Media queries adjusted.
+Updated section icons.
+Adjusted google fonts.
 
 

@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Karma', sans-serif; 
 }
 
 hr {
@@ -34,8 +34,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+h6,
+p {
+  font-family: 'Karma', sans-serif; 
 }
 
 .bg-primary {
@@ -88,7 +89,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Karma', sans-serif; 
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -97,7 +98,7 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: dodgerblue;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Karma', sans-serif; 
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -172,10 +173,11 @@ img::-moz-selection {
 
 header.masterhead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/coding_background3.jpg');
+  padding-bottom: calc(10rem - 106px);
+  background-image: url('../img/matrixBG.jpg');
   background-position: center center;
   background-size: cover;
+  opacity: 0.6;
 }
 
 header.masterhead hr {
@@ -236,8 +238,8 @@ header.masterhead p {
   opacity: 0;
   color: #fff;
   background: dodgerblue;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -252,7 +254,7 @@ header.masterhead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Karma', sans-serif; 
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -295,7 +297,7 @@ header.masterhead p {
 .btn-primary {
   background: linear-gradient(45deg, dodgerblue, 75deg, blue);
   border-color: rgb(64, 126, 240);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Karma', sans-serif; 
   text-transform: uppercase;
 }
 
