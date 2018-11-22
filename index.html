@@ -25,6 +25,10 @@
     <!-- hover animations -->
     <link rel="stylesheet" href="Hover\css\hover.css">
 
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+
   </head>
 
   <body id="page-top">
@@ -62,7 +66,7 @@
     </nav>
 
     <header class="masterhead text-center text-white d-flex">
-
+      
       <div class="my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -72,7 +76,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Junior Web Developer</p>
+            <p class="text-uppercase text-white mb-5">Junior Web Developer</p>
             <a class="btn btn-primary hvr-curl-bottom-right btn-xl js-scroll-trigger" href="#about">Explore</a>
           </div>
         </div>
@@ -189,7 +193,7 @@
       </div>
     </section>
 
-    <section id="education">
+    <section id="workexperience">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -381,6 +385,30 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <!-- header animation -->
+    <script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
+    
+    <script>	
+        function detectmob() { 
+          if( navigator.userAgent.match(/Android/i)
+          || navigator.userAgent.match(/webOS/i)
+          || navigator.userAgent.match(/iPhone/i)
+          || navigator.userAgent.match(/iPad/i)
+          || navigator.userAgent.match(/iPod/i)
+          || navigator.userAgent.match(/BlackBerry/i)
+          || navigator.userAgent.match(/Windows Phone/i)
+          ){
+            return true;
+          }
+          else {
+            return false;
+          }
+        }
+    </script>
 
   </body>
 

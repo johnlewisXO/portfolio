@@ -17,6 +17,10 @@ footer {
   text-align: center;
 }
 
+section {
+  padding: 7.5rem 0;
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -45,6 +49,7 @@ h5,
 h6,
 p {
   font-family: 'Cardo', sans-serif; 
+  color: #777;
 }
 
 .bg-primary {
@@ -59,20 +64,19 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-section {
-  padding: 6rem 0;
-}
-
-
 #about {
   margin: 8% 0 8% 0; 
-  background: linear-gradient(35deg, dodgerblue, lightblue);
+  background: url(../img/tech1.jpg);
+  animation: Animate 15.5s ease-in infinite;
   background-position: center center;
-  background-size: inherit;
+  background-size: cover;
+  height: 480px;
+  background-attachment: fixed;
+  opacity: 0.6;
 }
 
 #education {
-  margin: 0 0 8% 0; 
+  margin: 0 0 8% 2%; 
 }
 
 #portfolio {
@@ -81,10 +85,12 @@ section {
 
 #more {
   margin: 8% 0 8% 0; 
-  background: linear-gradient(35deg, dodgerblue, lightblue);
-  animation: Animate 1.5s ease-in-out infinite;
+  background: url(../img/devBG.jpeg);
+  animation: Animate 25.5s ease-in infinite;
   background-position: center center;
-  background-size: inherit;
+  height: 360px;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #workexperience {
@@ -212,11 +218,13 @@ header.masterhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 106px);
   background: url('../img/tech2.png');
+  animation: Animate 9.5s ease-in infinite;
+  height: 620px;
   background-position: center center;
+  background-attachment: fixed;
   background-size: contain;
   opacity: 0.6;
 }
-
 
 header.masterhead hr {
   margin-top: 30px;
@@ -233,7 +241,12 @@ header.masterhead p {
 
 @media (min-width: 768px) {
   header.masterhead p {
-    font-size: 1.15rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  body p {
+    font-size: 1rem;
   }
 }
 
@@ -244,6 +257,7 @@ header.masterhead p {
     padding-top: 0;
     padding-bottom: 0;
     background-size: cover;
+    font-weight: 600;
   }
   header.masterhead h1 {
     font-size: 3rem;
@@ -375,5 +389,17 @@ header.masterhead p {
     50%{background-position:75% 100%}
     100%{background-position:26% 0%}
 }
+
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
 
 

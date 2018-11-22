@@ -82,6 +82,8 @@ Adjusted google fonts.
 
 Icons added to links.
 New Backdrop for header added.
+Animations for images added.
+Parralax effects implemented.
 
 
 
