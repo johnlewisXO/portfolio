@@ -71,11 +71,17 @@ Media querries adjusted.
 New fonts and images added.
 Media queries adjusted.
 
-# 21-11-2018
+# 21-11-2018 - Update
 
 Site theme/base colours tweaked for simplicity.
 Section Media queries adjusted.
 Updated section icons.
 Adjusted google fonts.
+
+# 22-11-2018 - Update
+
+Icons added to links.
+New Backdrop for header added.
+
 
 

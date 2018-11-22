@@ -214,7 +214,7 @@ svg:not(:root).svg-inline--fa {
   line-height: inherit; }
 
 .fa-border {
-  border: solid 0.08em #eee;
+  border: solid 0.08em rgb(255, 255, 255);
   border-radius: .1em;
   padding: .2em .25em .15em; }
 
@@ -239,12 +239,13 @@ svg:not(:root).svg-inline--fa {
   margin-left: .3em; }
 
 .fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
-          animation: fa-spin 2s infinite linear; }
+  -webkit-animation: fa-spin 2s forwards linear;
+          animation: fa-spin 2s forwards linear; }
+          
 
 .fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
-          animation: fa-spin 1s infinite steps(8); }
+  -webkit-animation: fa-spin 1s infinite steps(2);
+          animation: fa-spin 1s infinite steps(2); }
 
 @-webkit-keyframes fa-spin {
   0% {
