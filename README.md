@@ -80,7 +80,7 @@ Adjusted google fonts.
 
 # 22-11-2018 - Update
 
-Icons added to links.
+Icons added to anchor links.
 New Backdrop for header added.
 Animations for images added.
 Parralax effects implemented.

@@ -354,7 +354,7 @@ header.masterhead p {
   border-color: #333;
   font-family: 'Cardo', sans-serif; 
   text-transform: uppercase;
-  -webkit-animation: Animate 1.8s ease infinite;
+  -webkit-animation: Animate 1.7s ease infinite;
   -moz-animation: Animate 1.8s ease infinite;
   animation: Animate 1.8s ease infinite;
 }
