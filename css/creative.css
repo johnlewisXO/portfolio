@@ -192,7 +192,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: dodgerblue;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -264,17 +264,70 @@ header.masterhead p {
   body p {
     font-size: -40%;
   }
+
+  #education h2 {
+    font-size: 2.5rem;
+  }
+
+  #education p {
+    font-size: 0.8rem;
+  }
+
+  #more h2 {
+    font-size: 2.5rem;
+  }
+
+  #more p {
+    font-size: 0.8rem;
+  }
+
+  #about h2 {
+    font-size: 2.5rem;
+  }
+
+  #about p {
+    font-size: 0.8rem;
+  }
+
+  #services h2 {
+    font-size: 2.5rem;
+  }
+
+  #services p {
+    font-size: 0.8rem;
+  }
+
+  #workexperience h2 {
+    font-size: 2.5rem;
+  }
+
+  #workexperience p {
+    font-size: 0.8rem;
+  }
+
+  #portfolio h2 {
+    font-size: 2.5rem;
+  }
+
+  #portfolio p {
+    font-size: 0.8rem;
+  }
+
+
+  
 }
 
 @media (max-width: 992px) {
+
   header.masterhead {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
+    background: url('../img/devBG.jpeg');
     background-size: cover;
     background-attachment: fixed;
-    font-weight: 600;
+    font-weight: 800;
   }
   header.masterhead h1 {
     font-size: 3rem;

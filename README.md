@@ -62,7 +62,7 @@ Contact section adjusted - fixed position.
 Site theme/base colours adjusted.
 Changed font sizing for all content.
 
-#16-11-2018 - Update
+# 16-11-2018 - Update
 
 Media querries adjusted.
 
@@ -87,7 +87,8 @@ Parralax effects implemented.
 
 # 23-11-2018 - Update
 
-Fixed image ratio aspect issues
+Fixed image ratio aspect issues.
+Responsive design for section text adjusted - mobile/tablet.
 
 
 
