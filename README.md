@@ -85,5 +85,9 @@ New Backdrop for header added.
 Animations for images added.
 Parralax effects implemented.
 
+# 23-11-2018 - Update
+
+Fixed image ratio aspect issues
+
 
 
