@@ -1,22 +1,25 @@
-
+/* body/html sizing */
 body,
 html {
   width: 100%;
   height: 100%;
 }
 
+/* fonts for body sections */
 body {
   font-family: 'Antic Slab', sans-serif; 
 }
 
+/* footer properties */
 footer {
   width: 100%;
   height: 6vh;
-  background: linear-gradient(35deg, lightblue, white);
+  background: linear-gradient(75deg, lightblue, white);
   font-size: 3.5vh;
   text-align: center;
 }
 
+/* section properties */
 section {
   padding: 7.5rem 0;
 }
@@ -31,12 +34,14 @@ hr.light {
   border-color: #fff;
 }
 
+/* anchor tag properties */
 a {
   color: rgb(27, 60, 206);
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
 }
 
+/* anchor hover properties */
 a:hover {
   color: #40c7f0;
 }
@@ -52,6 +57,7 @@ p {
   color: rgba(7, 7, 7, 0.863);
 }
 
+/* background preset properties */
 .bg-primary {
   background-color: dodgerblue !important;
 }
@@ -60,14 +66,16 @@ p {
   background-color: #212529 !important;
 }
 
+/* text properties */
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* about section properties: custom margin and sizing */
 #about {
   margin: 8% 0 8% 0; 
   background: url(../img/tech1.jpg);
-  animation: Animate 15.5s ease-in infinite;
+  animation: Animate 15.5s ease-in-out;
   background-position: center center;
   background-size: cover;
   height: 480px;
@@ -75,14 +83,18 @@ p {
   opacity: 0.6;
 }
 
+/* education section properties: custom margin */
+
 #education {
   margin: 0 0 8% 2%; 
 }
 
+/* portfolio section properties: custom margin and sizing */
 #portfolio {
   margin: 0 0 25% 0; 
 }
 
+/* more section properties: custom margin and sizing */
 #more {
   margin: 8% 0 8% 0; 
   background: url(../img/tech2.png);
@@ -93,10 +105,12 @@ p {
   background-size: cover;
 }
 
+/* work experience section properties: custom margin and sizing */
 #workexperience {
   margin: 8% 0 8% 0; 
 }
 
+/* section heading properties */
 .section-heading {
   margin-top: 0;
 }
@@ -128,7 +142,7 @@ img::-moz-selection {
   background: transparent;
 }
 
-
+/* navigation and menu properties: sticky */
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -144,6 +158,7 @@ img::-moz-selection {
   font-family: 'Antic Slab', sans-serif; 
 }
 
+/* navbar focus properties */
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #40e4f0;
 }
@@ -156,22 +171,28 @@ img::-moz-selection {
   color: #212529;
 }
 
+/* navbar a hover/focus properties */
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: rgb(64, 170, 240);
 }
 
+/* navbar a active/focus properties */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: rgb(64, 170, 240);
   background-color: transparent;
 }
 
+/* navbar a hover/active properties */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
 }
 
+
+/* responsive design for media screens: 992px */
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -218,7 +239,6 @@ header.masterhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 106px);
   background: url('../img/typingHandsX.gif');
-  animation: Animate 15 .5s ease-in infinite;
   height: 640px;
   background-position: center left;
   background-attachment: fixed;
@@ -242,6 +262,7 @@ header.masterhead p {
   margin-top: 4px;
 }
 
+/* responsive design for media screens: 768px */
 @media (max-width: 768px) {
 
   header.masterhead {
@@ -313,10 +334,17 @@ header.masterhead p {
     font-size: 0.8rem;
   }
 
-
+  .social-container {
+    width: 100%;
+    height: 36px;
+    perspective: 300px;
+    font-size: 18px;
+    margin: 8px;
+  }
   
 }
 
+/* responsive design for media screens: 992px */
 @media (max-width: 992px) {
 
   header.masterhead {
@@ -332,18 +360,29 @@ header.masterhead p {
   header.masterhead h1 {
     font-size: 3rem;
   }
+
+  .social-container {
+    width: 100%;
+    height: 36px;
+    perspective: 300px;
+    font-size: 18px;
+    margin: 8px;
+  }
 }
 
+/* responsive design for media screens: 1200px */
 @media (min-width: 1200px) {
   header.masterhead h1 {
     font-size: 4rem;
   }
 }
 
+/* service-box properties */
 .service-box {
   max-width: 400px;
 }
 
+/* porfolio-box properties */
 .portfolio-box {
   position: relative;
   display: block;
@@ -391,14 +430,18 @@ header.masterhead p {
   font-size: 16px;
 }
 
+/* portfolio-box hover properties */
 .portfolio-box:hover .portfolio-box-caption {
   background: linear-gradient(35deg, dodgerblue, lightblue);
   opacity: 1;
 }
 
+/* portfolio-box focus properties */
 .portfolio-box:focus {
   outline: none;
 }
+
+/* responsive design for portfolio-box: 768px */
 
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -413,12 +456,13 @@ header.masterhead p {
   color: rgb(15, 9, 8) !important;
 }
 
-
+/* button xl properties */
 .btn-xl {
   padding: 1rem 2rem;
   
 }
 
+/* button primary properties */
 .btn-primary {
   background: #21aef2;
   border-color: #333;
@@ -429,6 +473,7 @@ header.masterhead p {
   animation: Animate 1.8s ease infinite;
 }
 
+/* button primary hover properties */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background: linear-gradient(147deg, #21aef2, #f255219a);
@@ -437,13 +482,14 @@ header.masterhead p {
   
 }
 
+/* button primary active properties */
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(64, 146, 240, 0.5)!important;
 }
 
 
-
+/* keyframes for animations */
 @-webkit-keyframes Animate {
     0%{background-position:26% 0%}
     50%{background-position:75% 100%}
@@ -460,16 +506,133 @@ header.masterhead p {
     100%{background-position:26% 0%}
 }
 
-
-.large-header {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
+/* social media container properties */
+.social-container {
+  position: relative;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  height: 36px;
+  perspective: 300px;
+  font-size: 24px;
+  margin: 8px;
+}
+.social-container .social-cube {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.633s;
+  transform: translateZ(-18px);
+}
+.social-container .social-cube .front, .social-container .social-cube .bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: background 0.333s;
 }
 
+/* individual social cube properties */
+.social-container .social-cube .front {
+  transform: rotateX(0deg) translateZ(18px);
+}
+.social-container .social-cube .bottom {
+  transform: rotateX(-90deg) translateZ(18px);
+}
+.social-container:hover .social-cube {
+  transform: translateZ(-18px) rotateX(90deg);
+}
+.social-container.twitter .social-cube .front, .social-container.twitter .social-cube .back {
+  background: #4099ff;
+}
+.social-container.twitter .social-cube .bottom {
+  background: #0d7eff;
+}
+.social-container.twitter:hover .social-cube .bottom {
+  background: #4099ff;
+}
+.social-container.twitter:hover .social-cube .front {
+  background: #73b4ff;
+}
+.social-container.facebook .social-cube .front, .social-container.facebook .social-cube .back {
+  background: #3b5998;
+}
+.social-container.facebook .social-cube .bottom {
+  background: #2d4373;
+}
+.social-container.facebook:hover .social-cube .bottom {
+  background: #3b5998;
+}
+.social-container.facebook:hover .social-cube .front {
+  background: #4c70ba;
+}
+.social-container.youtube .social-cube .front, .social-container.youtube .social-cube .back {
+  background: #cc181e;
+}
+.social-container.youtube .social-cube .bottom {
+  background: #9e1317;
+}
+.social-container.youtube:hover .social-cube .bottom {
+  background: #cc181e;
+}
+.social-container.youtube:hover .social-cube .front {
+  background: #e73036;
+}
+.social-container.github .social-cube .front, .social-container.github .social-cube .back {
+  background: #767676;
+}
+.social-container.github .social-cube .bottom {
+  background: #5d5d5d;
+}
+.social-container.github:hover .social-cube .bottom {
+  background: #767676;
+}
+.social-container.github:hover .social-cube .front {
+  background: #909090;
+}
+.social-container.dribbble .social-cube .front, .social-container.dribbble .social-cube .back {
+  background: #ea4c89;
+}
+.social-container.dribbble .social-cube .bottom {
+  background: #e51e6b;
+}
+.social-container.dribbble:hover .social-cube .bottom {
+  background: #ea4c89;
+}
+.social-container.dribbble:hover .social-cube .front {
+  background: #ef7aa7;
+}
+.social-container.codepen .social-cube .front, .social-container.codepen .social-cube .back {
+  background: #191919;
+}
+.social-container.codepen .social-cube .bottom {
+  background: #000;
+}
+.social-container.codepen:hover .social-cube .bottom {
+  background: #191919;
+}
+.social-container.codepen:hover .social-cube .front {
+  background: #333;
+}
 
+.social-container.linkedin .social-cube .front, .social-container.linkedin .social-cube .back {
+  background: dodgerblue;
+}
+.social-container.linkedin .social-cube .bottom {
+  background: dodgerblue;
+}
+.social-container.linkedin:hover .social-cube .bottom {
+  background: dodgerblue;
+}
+.social-container.linkedin:hover .social-cube .front {
+  background: dodgerblue;
+}
 

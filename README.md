@@ -2,7 +2,7 @@
 ## Creation
 
 Made with HTML, CSS, Sass.
-Responsive Design Used - Media Queries
+Responsive Design Used - Bootstrap Framework.
 
 ### Basic Usage
 
@@ -11,7 +11,8 @@ After downloading, simply display by opening `index.html` file in your web brows
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://johnlewisxo.github.io/portfolio/) on GitHub or leave a comment on the (https://johnlewisxo.github.io/portfolio/README.md).
+Have a bug or an issue with this template? 
+[Open a new issue](https://johnlewisxo.github.io/portfolio/) on GitHub or leave a comment on the readme:(https://johnlewisxo.github.io/portfolio/README.md).
 
 ## About
 
@@ -89,6 +90,13 @@ Parralax effects implemented.
 
 Fixed image ratio aspect issues.
 Responsive design for section text adjusted - mobile/tablet.
+
+# 26-11-2018 - Update
+
+Implemented 3D flipbox animation for social media anchor tags.
+Responsive design updated.
+recent changes commenting added.
+
 
 
 
