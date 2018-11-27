@@ -13,9 +13,9 @@ body {
 /* footer properties */
 footer {
   width: 100%;
-  height: 6vh;
+  height: 5.5vh;
   background: linear-gradient(75deg, lightblue, white);
-  font-size: 3.5vh;
+  font-size: 2.8vh;
   text-align: center;
 }
 
@@ -75,12 +75,12 @@ p {
 #about {
   margin: 8% 0 8% 0; 
   background: url(../img/tech1.jpg);
-  animation: Animate 15.5s ease-in-out;
+  animation: Animate 47.5s ease-in-out;
   background-position: center center;
-  background-size: cover;
+  background-size: 1460px;
   height: 480px;
   background-attachment: fixed;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 /* education section properties: custom margin */
@@ -98,7 +98,7 @@ p {
 #more {
   margin: 8% 0 8% 0; 
   background: url(../img/tech2.png);
-  animation: Animate 25.5s ease-in infinite;
+  animation: Animate 30.5s ease-in forwards;
   background-position: center center;
   height: 360px;
   background-attachment: fixed;
@@ -238,12 +238,15 @@ img::-moz-selection {
 header.masterhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 106px);
-  background: url('../img/typingHandsX.gif');
   height: 640px;
-  background-position: center left;
   background-attachment: fixed;
-  background-size: 2290px;
-  opacity: 0.9;
+}
+
+header .masterhead img {
+  background-position: center center;
+  
+  background-size: 720px;
+  opacity: 0.6;
 }
 
 header.masterhead hr {
@@ -336,7 +339,7 @@ header.masterhead p {
 
   .social-container {
     width: 100%;
-    height: 36px;
+    height: 46px;
     perspective: 300px;
     font-size: 18px;
     margin: 8px;
@@ -363,7 +366,7 @@ header.masterhead p {
 
   .social-container {
     width: 100%;
-    height: 36px;
+    height: 46px;
     perspective: 300px;
     font-size: 18px;
     margin: 8px;
@@ -401,8 +404,8 @@ header.masterhead p {
   opacity: 0;
   color: #fff;
   background: linear-gradient(25deg, dodgerblue, lightblue);
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transition: all 1.1s;
+  transition: all 1.1s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -425,7 +428,7 @@ header.masterhead p {
   font-weight: 600;
   text-transform: uppercase;
 }
-
+    
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 16px;
 }
@@ -635,4 +638,3 @@ header.masterhead p {
 .social-container.linkedin:hover .social-cube .front {
   background: dodgerblue;
 }
-

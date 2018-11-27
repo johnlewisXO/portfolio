@@ -95,8 +95,12 @@ Responsive design for section text adjusted - mobile/tablet.
 
 Implemented 3D flipbox animation for social media anchor tags.
 Responsive design updated.
-recent changes commenting added.
+Recent changes commenting added.
 
+## 27-11-2018 - Update
+
+Fixed background size animation of header to a more compact view.
+Adjusted Responsive design in sections for mobile/tablet devices.
 
 
 
