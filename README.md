@@ -90,5 +90,9 @@ Parralax effects implemented.
 Fixed image ratio aspect issues.
 Responsive design for section text adjusted - mobile/tablet.
 
+# 25-11-2018 - Update
+
+removed icons from navbar menu.
+
 
 

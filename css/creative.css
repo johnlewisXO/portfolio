@@ -94,7 +94,7 @@ p {
 }
 
 #workexperience {
-  margin: 8% 0 8% 0; 
+  margin: 0 auto; 
 }
 
 .section-heading {
@@ -217,13 +217,7 @@ img::-moz-selection {
 header.masterhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 106px);
-  background: url('../img/typingHandsX.gif');
-  animation: Animate 15 .5s ease-in infinite;
-  height: 640px;
-  background-position: center left;
   background-attachment: fixed;
-  background-size: 2290px;
-  opacity: 0.9;
 }
 
 header.masterhead hr {
@@ -242,23 +236,28 @@ header.masterhead p {
   margin-top: 4px;
 }
 
+@media (max-width: 993px) {
+
+  header .masterhead img {
+    background-position: center center;
+    background-size: 720px;
+    opacity: 0.6;
+  }
+
+}
+
 @media (max-width: 768px) {
 
-  header.masterhead {
-    background: url('../img/devBG.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-  }
   header.masterhead p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 800;
-    color: #fff
+    color: rgb(0, 0, 0)
   }
 
   header.masterhead h1 {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     font-weight: 800;
-    color: #fff
+    color: rgb(0, 0, 0)
   }
 
   body p {
@@ -319,24 +318,23 @@ header.masterhead p {
 
 @media (max-width: 992px) {
 
-  header.masterhead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-    background: url('../img/devBG.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-    font-weight: 800;
-  }
   header.masterhead h1 {
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
+
+  header.masterhead p {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media (min-width: 1200px) {
   header.masterhead h1 {
-    font-size: 4rem;
+    font-size: 3.3rem;
+  }
+
+  header.masterhead p {
+    font-size: 2rem;
   }
 }
 
@@ -348,8 +346,9 @@ header.masterhead p {
   position: relative;
   display: block;
   max-width: 650px;
-  margin: 0 auto;
+  margin: 30px auto;
   opacity: 0.6;
+  width: 80%;
 }
 
 .portfolio-box .portfolio-box-caption {
