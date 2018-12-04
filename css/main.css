@@ -1,29 +1,32 @@
-
+/* body/html sizing */
 body,
 html {
   width: 100%;
   height: 100%;
 }
 
+/* fonts for body sections */
 body {
   font-family: 'Antic Slab', sans-serif; 
 }
 
+/* footer properties */
 footer {
   width: 100%;
-  height: 6vh;
-  background: linear-gradient(35deg, lightblue, white);
-  font-size: 3.5vh;
+  height: 5.5vh;
+  background: linear-gradient(75deg, lightblue, white);
+  font-size: 2.8vh;
   text-align: center;
 }
 
+/* section properties */
 section {
   padding: 7.5rem 0;
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
+  max-width: 100px;
+  border-width: 5px;
   border-color: rgb(64, 184, 240);
 }
 
@@ -31,12 +34,14 @@ hr.light {
   border-color: #fff;
 }
 
+/* anchor tag properties */
 a {
   color: rgb(27, 60, 206);
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
 }
 
+/* anchor hover properties */
 a:hover {
   color: #40c7f0;
 }
@@ -52,6 +57,7 @@ p {
   color: rgba(7, 7, 7, 0.863);
 }
 
+/* background preset properties */
 .bg-primary {
   background-color: dodgerblue !important;
 }
@@ -60,43 +66,51 @@ p {
   background-color: #212529 !important;
 }
 
+/* text properties */
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* about section properties: custom margin and sizing */
 #about {
   margin: 8% 0 8% 0; 
   background: url(../img/tech1.jpg);
-  animation: Animate 15.5s ease-in infinite;
+  animation: Animate 47.5s ease-in-out;
   background-position: center center;
-  background-size: cover;
+  background-size: 1460px;
   height: 480px;
   background-attachment: fixed;
   opacity: 0.6;
 }
 
+/* education section properties: custom margin */
+
 #education {
   margin: 0 0 8% 2%; 
 }
 
+/* portfolio section properties: custom margin and sizing */
 #portfolio {
   margin: 0 0 25% 0; 
 }
 
+/* more section properties: custom margin and sizing */
 #more {
-  margin: 8% 0 8% 0; 
+  margin: 8% 0 10px 0; 
   background: url(../img/tech2.png);
-  animation: Animate 25.5s ease-in infinite;
+  animation: Animate 40.5s ease-in forwards;
   background-position: center center;
   height: 360px;
   background-attachment: fixed;
   background-size: cover;
 }
 
+/* work experience section properties: custom margin and sizing */
 #workexperience {
-  margin: 0 auto; 
+  margin: 8% 0 8% 0; 
 }
 
+/* section heading properties */
 .section-heading {
   margin-top: 0;
 }
@@ -128,11 +142,11 @@ img::-moz-selection {
   background: transparent;
 }
 
-
+/* navigation and menu properties: sticky */
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Antic Slab', sans-serif; 
+  font-family: 'Tinos', sans-serif; 
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -141,9 +155,10 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: dodgerblue;
-  font-family: 'Antic Slab', sans-serif; 
+  font-family: 'Cardo', sans-serif; 
 }
 
+/* navbar focus properties */
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #40e4f0;
 }
@@ -156,22 +171,28 @@ img::-moz-selection {
   color: #212529;
 }
 
+/* navbar a hover/focus properties */
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: rgb(64, 170, 240);
 }
 
+/* navbar a active/focus properties */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: rgb(64, 170, 240);
   background-color: transparent;
 }
 
+/* navbar a hover/active properties */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
 }
 
+
+/* responsive design for media screens: 992px */
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -220,6 +241,16 @@ header.masterhead {
   background-attachment: fixed;
 }
 
+@media (max-width: 993px) {
+
+  header .masterhead img {
+    background-position: center center;
+    background-size: 720px;
+    opacity: 0.6;
+  }
+
+}
+
 header.masterhead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -236,26 +267,18 @@ header.masterhead p {
   margin-top: 4px;
 }
 
-@media (max-width: 993px) {
-
-  header .masterhead img {
-    background-position: center center;
-    background-size: 720px;
-    opacity: 0.6;
-  }
-
-}
-
+/* responsive design for media screens: 768px */
 @media (max-width: 768px) {
 
+
   header.masterhead p {
-    font-size: 1rem;
+    font-size: 1.0rem;
     font-weight: 800;
-    color: rgb(0, 0, 0)
+    color: rgb(2, 2, 2)
   }
 
   header.masterhead h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 800;
     color: rgb(0, 0, 0)
   }
@@ -264,6 +287,16 @@ header.masterhead p {
     font-size: -40%;
   }
 
+  #more {
+    background: url(../img/techBG2.jpg);
+    animation: Animate 50.5s ease-in forwards;
+  }
+
+  #about {
+    background: url(../img/coding_background3.jpg);
+    animation: Animate 50.5s ease-in forwards;
+    opacity: 0.6;
+  }
   #education h2 {
     font-size: 2.5rem;
   }
@@ -312,25 +345,24 @@ header.masterhead p {
     font-size: 0.8rem;
   }
 
-
-  
 }
 
+/* responsive design for media screens: 992px */
 @media (max-width: 992px) {
 
   header.masterhead h1 {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
 
   header.masterhead p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
-
 }
 
+/* responsive design for media screens: 1200px */
 @media (min-width: 1200px) {
   header.masterhead h1 {
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   header.masterhead p {
@@ -338,21 +370,24 @@ header.masterhead p {
   }
 }
 
+/* service-box properties */
 .service-box {
   max-width: 400px;
 }
 
+/* porfolio-box properties */
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 30px auto;
   opacity: 0.6;
-  width: 80%;
+  width: 70%;
+  
 }
 
 .portfolio-box .portfolio-box-caption {
-  position: absolute;
+  position: absolute; 
   bottom: 0;
   display: block;
   width: 100%;
@@ -361,8 +396,8 @@ header.masterhead p {
   opacity: 0;
   color: #fff;
   background: linear-gradient(25deg, dodgerblue, lightblue);
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
+  -webkit-transition: all 1.1s;
+  transition: all 1.1s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -385,19 +420,23 @@ header.masterhead p {
   font-weight: 600;
   text-transform: uppercase;
 }
-
+    
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 16px;
 }
 
+/* portfolio-box hover properties */
 .portfolio-box:hover .portfolio-box-caption {
   background: linear-gradient(35deg, dodgerblue, lightblue);
   opacity: 1;
 }
 
+/* portfolio-box focus properties */
 .portfolio-box:focus {
   outline: none;
 }
+
+/* responsive design for portfolio-box: 768px */
 
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -412,22 +451,24 @@ header.masterhead p {
   color: rgb(15, 9, 8) !important;
 }
 
-
+/* button xl properties */
 .btn-xl {
   padding: 1rem 2rem;
   
 }
 
+/* button primary properties */
 .btn-primary {
   background: #21aef2;
   border-color: #333;
   font-family: 'Antic Slab', sans-serif; 
   text-transform: uppercase;
-  -webkit-animation: Animate 1.7s ease infinite;
-  -moz-animation: Animate 1.8s ease infinite;
-  animation: Animate 1.8s ease infinite;
+  -webkit-animation: Animate 5.7s ease infinite;
+  -moz-animation: Animate 5.8s ease infinite;
+  animation: Animate 5.8s ease infinite;
 }
 
+/* button primary hover properties */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background: linear-gradient(147deg, #21aef2, #f255219a);
@@ -436,13 +477,14 @@ header.masterhead p {
   
 }
 
+/* button primary active properties */
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(64, 146, 240, 0.5)!important;
 }
 
 
-
+/* keyframes for animations */
 @-webkit-keyframes Animate {
     0%{background-position:26% 0%}
     50%{background-position:75% 100%}
@@ -458,17 +500,4 @@ header.masterhead p {
     50%{background-position:75% 100%}
     100%{background-position:26% 0%}
 }
-
-
-.large-header {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
-
-
 
