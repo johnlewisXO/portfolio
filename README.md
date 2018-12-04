@@ -91,27 +91,9 @@ Parralax effects implemented.
 Fixed image ratio aspect issues.
 Responsive design for section text adjusted - mobile/tablet.
 
-<<<<<<< HEAD
 # 25-11-2018 - Update
 
 removed icons from navbar menu.
-=======
-# 26-11-2018 - Update
-
-Implemented 3D flipbox animation for social media anchor tags.
-Responsive design updated.
-Recent changes commenting added.
-
-## 27-11-2018 - Update
-
-Fixed background size animation of header to a more compact view.
-Adjusted Responsive design in sections for mobile/tablet devices.
-
-
-
-
-
->>>>>>> 5b53d088f6f9efcd740ac2a453a1ab859ecdc7bc
 
 
 

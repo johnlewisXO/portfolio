@@ -269,7 +269,11 @@ header.masterhead p {
 
 /* responsive design for media screens: 768px */
 @media (max-width: 768px) {
+  header.masterhead img {
 
+    display: none;
+    background: url(../img/blur1.jpg);
+  }
 
   header.masterhead p {
     font-size: 1.0rem;
@@ -293,7 +297,7 @@ header.masterhead p {
   }
 
   #about {
-    background: url(../img/coding_background3.jpg);
+    background: url(../img/tech2.png);
     animation: Animate 50.5s ease-in forwards;
     opacity: 0.6;
   }
