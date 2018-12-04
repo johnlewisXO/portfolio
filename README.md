@@ -93,7 +93,12 @@ Responsive design for section text adjusted - mobile/tablet.
 
 # 25-11-2018 - Update
 
-removed icons from navbar menu.
+Removed icons from navbar menu.
+
+# 04-12-2018 - Update
+
+Adjusted font size of header section.
+Added dropbox download link for portfolio.
 
 
 

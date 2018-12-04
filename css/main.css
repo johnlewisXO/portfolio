@@ -263,16 +263,14 @@ header.masterhead h1 {
 
 header.masterhead p {
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 1em;
   margin-top: 4px;
 }
 
 /* responsive design for media screens: 768px */
 @media (max-width: 768px) {
   header.masterhead img {
-
     display: none;
-    background: url(../img/blur1.jpg);
   }
 
   header.masterhead p {
@@ -301,6 +299,7 @@ header.masterhead p {
     animation: Animate 50.5s ease-in forwards;
     opacity: 0.6;
   }
+  
   #education h2 {
     font-size: 2.5rem;
   }
@@ -348,12 +347,13 @@ header.masterhead p {
   #portfolio p {
     font-size: 0.8rem;
   }
-
 }
 
 /* responsive design for media screens: 992px */
 @media (max-width: 992px) {
-
+  header.masterhead img {
+    display: none;
+  }
   header.masterhead h1 {
     font-size: 3rem;
   }
@@ -386,7 +386,7 @@ header.masterhead p {
   max-width: 650px;
   margin: 30px auto;
   opacity: 0.6;
-  width: 70%;
+  width: 80%;
   
 }
 
