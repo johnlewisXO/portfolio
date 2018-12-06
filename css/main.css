@@ -80,7 +80,7 @@ p {
   background-size: 1460px;
   height: 480px;
   background-attachment: fixed;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 /* education section properties: custom margin */
@@ -94,15 +94,15 @@ p {
   margin: 0 0 25% 0; 
 }
 
-/* more section properties: custom margin and sizing */
-#more {
+/* download section properties: custom margin and sizing */
+#download {
   margin: 8% 0 10px 0; 
-  background: url(../img/tech2.png);
+  background: url(../img/blur1.jpg);
   animation: Animate 40.5s ease-in forwards;
   background-position: center center;
   height: 360px;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 1460px;
 }
 
 /* work experience section properties: custom margin and sizing */
@@ -242,7 +242,10 @@ header.masterhead {
 }
 
 @media (max-width: 993px) {
-
+  header.masterhead {
+    background-color: #40c7f0;
+  }
+  
   header .masterhead img {
     background-position: center center;
     background-size: 720px;
@@ -269,6 +272,10 @@ header.masterhead p {
 
 /* responsive design for media screens: 768px */
 @media (max-width: 768px) {
+  header.masterhead {
+    background-color: #40c7f0;
+  }
+  
   header.masterhead img {
     display: none;
   }

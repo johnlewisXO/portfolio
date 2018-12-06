@@ -100,5 +100,10 @@ Removed icons from navbar menu.
 Adjusted font size of header section.
 Added dropbox download link for portfolio.
 
+# 06-12-2018 - Update
+
+Removed some social media links for simpler contact content layout
+
+
 
 
