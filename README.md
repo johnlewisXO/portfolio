@@ -1,22 +1,27 @@
+## Description
+
+This portfolio is a presentation of my Cirriculum Vitae. In essence it's ultimate purpose is to display my Web Development abilities to possible future employers.
 
 ## Creation
 
-Made with HTML, CSS, Sass.
+```
+Made with HTML, CSS, Sass, JavaScript.
 Responsive Design Used - Bootstrap Framework.
+Font-awesome used in this project.
+```
 
-### Basic Usage
+## Basic Usage
 
 After downloading, simply display by opening `index.html` file in your web browser.
 
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? 
+Have a bug or an issue with this project? 
 [Open a new issue](https://johnlewisxo.github.io/portfolio/) on GitHub or leave a comment on the readme:(https://johnlewisxo.github.io/portfolio/README.md).
 
-## About
 
-This portfolio is a prsentation of my Cirriculum Vitae.
+# Updates
 
 ## 04-10-2018 - Update
 
@@ -49,60 +54,66 @@ Section media queries adjusted.
 HTML Structure Adjusted - Scroll pattern.
 Hover/Active effects edited.
 
-# 06-11-2018 - Update
+## 06-11-2018 - Update
 
 Projects images and links added to projects section.
 
-# 09-11-2018 - Update
+## 09-11-2018 - Update
 
 New CSS styling for navbar and footer.
 Contact section adjusted - fixed position.
 
-# 13-11-2018 - Update
+## 13-11-2018 - Update
 
 Site theme/base colours adjusted.
 Changed font sizing for all content.
 
-# 16-11-2018 - Update
+## 16-11-2018 - Update
 
 Media querries adjusted.
 
-# 20-11-2018 - Update
+## 20-11-2018 - Update
 
 New fonts and images added.
 Media queries adjusted.
 
-# 21-11-2018 - Update
+## 21-11-2018 - Update
 
 Site theme/base colours tweaked for simplicity.
 Section Media queries adjusted.
 Updated section icons.
 Adjusted google fonts.
 
-# 22-11-2018 - Update
+## 22-11-2018 - Update
 
 Icons added to anchor links.
 New Backdrop for header added.
 Animations for images added.
 Parralax effects implemented.
 
-# 23-11-2018 - Update
+## 23-11-2018 - Update
 
 Fixed image ratio aspect issues.
 Responsive design for section text adjusted - mobile/tablet.
 
-# 25-11-2018 - Update
+## 25-11-2018 - Update
 
 Removed icons from navbar menu.
 
-# 04-12-2018 - Update
+## 04-12-2018 - Update
 
 Adjusted font size of header section.
 Added dropbox download link for portfolio.
 
-# 06-12-2018 - Update
+## 06-12-2018 - Update
 
-Removed some social media links for simpler contact content layout
+Removed some social media links for simpler contact content layout.
+
+## 08-12-2018 - Update
+
+Updated README structure.
+Pushed changes for review.
+
 
 
 
