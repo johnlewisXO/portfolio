@@ -1,24 +1,55 @@
-## Description
+# John Paul Lewis Portfolio
 
-This portfolio is a presentation of my Cirriculum Vitae. In essence it's ultimate purpose is to display my Web Development abilities to possible future employers.
+Checkout my project : https://johnlewisxo.github.io/portfolio/index.html
+
+## Intro & Description
+
+This portfolio is a presentation of my Cirriculum Vitae. A portfolio to depict my abilities, education background and other relevant information about myself.
+
+## Purpose
+
+This projects ultimate purpose is to display my Web Development abilities to possible future employers.
 
 ## Creation
 
+Made with:
+
 ```
-Made with HTML, CSS, Sass, JavaScript.
-Responsive Design Used - Bootstrap Framework.
-Font-awesome used in this project.
+HTML 
+CSS
+Sass
+JavaScript
+
+Responsive Web Design  
+Bootstrap Framework
+
 ```
 
 ## Basic Usage
 
+Access this project via github live link : https://johnlewisxo.github.io/portfolio/index.html
+
+Download the project from GitHub to use it offline, with some exceptions to certain content display.(E.G: google fonts.)
 After downloading, simply display by opening `index.html` file in your web browser.
+Open project folder in Visual Studio Code or preffered text editor for editing and inspecting.
 
+## Software & components used for development
 
-## Bugs and Issues
+```
+Visual Studio Code
+Firefox Developer Edition Browser/Chrome/Opera/Internet Explorer
+```
 
-Have a bug or an issue with this project? 
-[Open a new issue](https://johnlewisxo.github.io/portfolio/) on GitHub or leave a comment on the readme:(https://johnlewisxo.github.io/portfolio/README.md).
+## Additional Resources
+
+```
+Bootstrap
+JQuery
+Font-Awesome
+Pure CCS
+w3schools
+```
+
 
 
 # Updates
@@ -113,6 +144,12 @@ Removed some social media links for simpler contact content layout.
 
 Updated README structure.
 Pushed changes for review.
+Download link for header section added.
+
+
+# Live link
+
+Find my project on GitHub: https://johnlewisxo.github.io/portfolio/index.html
 
 
 
