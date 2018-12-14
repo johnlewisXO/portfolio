@@ -14,7 +14,6 @@ body {
 footer {
   width: 100%;
   height: 5.5vh;
-  background: linear-gradient(75deg, lightblue, white);
   font-size: 2.8vh;
   text-align: center;
 }
@@ -331,11 +330,11 @@ header.masterhead p {
     font-size: 0.8rem;
   }
 
-  #services h2 {
+  #skills h2 {
     font-size: 2.5rem;
   }
 
-  #services p {
+  #skills p {
     font-size: 0.8rem;
   }
 

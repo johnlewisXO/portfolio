@@ -8,11 +8,10 @@ This portfolio is a presentation of my Cirriculum Vitae. A portfolio to depict m
 
 ## Purpose
 
-This projects ultimate purpose is to display my Web Development abilities to possible future employers.
+This project's ultimate purpose is to display my Web Development abilities to possible future employers.
 
-## Creation
+## Programming Languages Used
 
-Made with:
 
 ```
 HTML 
@@ -23,6 +22,12 @@ JavaScript
 Responsive Web Design  
 Bootstrap Framework
 
+```
+
+```
+
+Responsive Web Design  
+Bootstrap Framework
 ```
 
 ## Basic Usage
@@ -145,6 +150,23 @@ Removed some social media links for simpler contact content layout.
 Updated README structure.
 Pushed changes for review.
 Download link for header section added.
+
+## 12-12-2018 - Update 
+
+Updated column structure for services section - used col-lg.
+Added MySql to Services.
+
+# 13-12-2018 - Update
+
+Fixed background colour for body section
+Services renamed to key skills
+Working on eliminating horizontal scroll bar at 450px breakpoint.
+
+
+
+
+
+
 
 
 # Live link
