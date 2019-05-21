@@ -393,6 +393,7 @@ header.masterhead p {
   margin: 30px auto;
   opacity: 0.6;
   width: 80%;
+  cursor: pointer;
   
 }
 
